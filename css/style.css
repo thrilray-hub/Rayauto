@@ -41,3 +41,57 @@ footer {
   text-align: center;
   padding: 10px;
 }
+/* AI Chat Widget */
+#chat-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #d32f2f;
+  color: white;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#chat-widget {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 300px;
+  background: white;
+  border: 1px solid #ccc;
+  display: none;
+  flex-direction: column;
+}
+
+#chat-header {
+  background: #1e1e1e;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#chat-messages {
+  padding: 10px;
+  height: 250px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+#chat-input {
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+
+#chat-input input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+}
+
+#chat-input button {
+  padding: 8px 12px;
+}
+
