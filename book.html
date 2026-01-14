@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book a Service | Ray-Auto Mechanics</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Book or Enquire</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="book.html">Book / Enquire</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+  <h2>Tell Us About Your Vehicle</h2>
+
+  <form action="https://YOUR-N8N-WEBHOOK-URL" method="POST">
+    <label>Name</label>
+    <input type="text" name="name" required />
+
+    <label>Email</label>
+    <input type="email" name="email" required />
+
+    <label>Vehicle (Make / Model / Year)</label>
+    <input type="text" name="vehicle" required />
+
+    <label>Describe the Issue</label>
+    <textarea name="issue" rows="5" required></textarea>
+
+    <button type="submit">Submit Enquiry</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Ray-Auto Mechanics Service</p>
+</footer>
+
+</body>
+</html>
