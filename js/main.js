@@ -26,7 +26,7 @@ async function sendMessage() {
   addMessage("You", message);
   input.value = "";
 
-  const response = await fetch("https://olaray.app.n8n.cloud/webhook/69d38a43-6f6b-49f9-91dc-d4bed8ed37e4", {
+  const response = await fetch("https://olaray.app.n8n.cloud/webhook/ai-chat", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
