@@ -41,7 +41,7 @@ async function sendMessage() {
   } else {
     addMessage("AI", data.reply);
   }
-
+}
 function getSessionId() {
   let sessionId = localStorage.getItem("chatSession");
   if (!sessionId) {
