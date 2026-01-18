@@ -36,7 +36,7 @@ async function sendMessage() {
   });
 
   const data = await response.json();
-   addMessage("AI", data.reply);
+   addMessage("AI", data.reply || "Sorry, I did not understand that.");
 }
 function getSessionId() {
   let sessionId = localStorage.getItem("chatSession");
